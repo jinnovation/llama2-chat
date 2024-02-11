@@ -11,6 +11,19 @@ A proof-of-concept of a ChatGPT-like chat frontend for Llama2.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Resources
+
+- https://sdk.vercel.ai/docs/guides/providers/replicate
+- https://vercel.com/docs/integrations/ai/replicate
+
+# Next Steps
+
+- Incorporate chat history, rate limiting, session storage, etc w/ Vercel KV, as explained here: https://vercel.com/templates/Next.js/nextjs-ai-chatbot
+- Record past chat histories
+- “Red flag” a chat
+    - Denote that something in there constitutes an exploit
+    - Categorize exploit (hate, bias, etc.) (finite list)
+
 ## Getting Started
 
 First, run the development server:
