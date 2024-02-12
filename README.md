@@ -19,7 +19,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Next Steps
 
 - Incorporate chat history, rate limiting, session storage, etc w/ Vercel KV, as explained here: https://vercel.com/templates/Next.js/nextjs-ai-chatbot
-- Record past chat histories
+- Save past chat sessions (maybe with [Vercel Blob](https://vercel.com/docs/storage/vercel-blob/server-upload)?)
 - “Red flag” a chat
     - Denote that something in there constitutes an exploit
     - Categorize exploit (hate, bias, etc.) (finite list)
