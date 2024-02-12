@@ -1,12 +1,15 @@
 'use client';
  
 import { useChat } from 'ai/react';
+
+import Banner from './banner';
  
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
  
   return (
     <div className="flex flex-col w-full max-w-md py-24 mx-auto stretch">
+      <Banner/>
       {messages.map(m => (
         <div key={m.id} className="whitespace-pre-wrap">
           {m.role === 'user' ? 'User: ' : 'AI: '}
